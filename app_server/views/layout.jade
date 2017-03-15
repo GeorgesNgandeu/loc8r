@@ -6,24 +6,24 @@ html
     link(rel='stylesheet', href='/bootstrap/css/amelia.bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-      nav.navbar.navbar-default.navbar-fixed-top
-        div.container
-          div.navbar-header
+      .navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
             a.navbar-brand(href='/') Loc8r
             button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
               span.icon-bar
               span.icon-bar
               span.icon-bar
-          div#navbar-main.navbar-collapse.collapse
+          #navbar-main.navbar-collapse.collapse
               ul.nav.navbar-nav
                 li
                   a(href='/about/') About
-      div.container
+      .container
         block content
 
         footer
-          div.row
-            div.col-xs-12
+          .row
+            .col-xs-12
               small &copy; Simon Holmes 2014
 
 
